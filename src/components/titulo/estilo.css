@@ -1,0 +1,32 @@
+.titulo{
+    color: #fff;
+    margin-bottom: 2%;
+    width: 36%;
+    height: 120px;
+    color: rgb(43, 243, 146);
+    font-size: 36px;
+}
+
+/* @media screen and (max-width: 320px){
+    h1{
+        font-size: 40px;
+    }
+} */
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+
+    .titulo{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 150px;
+    }
+
+}

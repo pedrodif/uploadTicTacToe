@@ -1,0 +1,114 @@
+.status{
+    
+    margin-bottom: 10%; 
+    position: absolute;
+    top: -40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.board-row:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+   
+.restart{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #000000;
+    border: 2px solid rgb(59, 240, 152);
+    color: rgb(59, 240, 152);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.restart:hover{
+    width: 105px;
+    height: 42px;
+}
+
+.position{
+    width: 25%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.square{
+    background: #000000;    
+    border: 3px solid #ddd;
+    color: rgb(43, 243, 146);
+    float: left;
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+
+}
+  
+.square:focus{
+    outline: none;
+    background: rgb(75, 123, 102);
+}
+
+@media screen and (max-width: 480px){
+
+    .position{
+        width: 90%;
+        margin-top: 60%;
+        margin-bottom: 10%;
+    }
+
+    .square{
+        width: 70px;
+        height: 70px;
+        font-size: 65px;
+    }
+
+    .restart{
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+
+    .status{
+        font-size: 80px;
+        top: -120px;
+    }   
+
+    .position{
+        width: 100%;
+        height: 100%;
+        margin-top: 18%;
+        margin-left: 40%;
+        /* border: 2px solid palegreen; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .square{
+        width: 300px;
+        height: 300px;
+        font-size: 200px;
+    }
+
+    .restart{
+        width: 300px;
+        height: 110px;
+        font-size: 50px;
+        margin-top: 1%;
+    }
+
+}
