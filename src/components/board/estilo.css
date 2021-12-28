@@ -54,8 +54,8 @@
     height: 90px;
 
 }
-  
-.square:focus{
+    
+.square:hover{
     outline: none;
     background: rgb(75, 123, 102);
 }
